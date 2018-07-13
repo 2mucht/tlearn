@@ -2,12 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { IndexComponent } from './index/index.component';
+import { WordQueryComponent } from './word-query/word-query.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    IndexComponent
+    WordQueryComponent
   ],
   imports: [
     BrowserModule
